@@ -1,0 +1,24 @@
+.Infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.Recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.Deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+@media only screen and (max-width: 960px) {
+  .card {
+    margin-top: 30px;
+    height: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .card {
+    margin-top: 30px;
+    height: 100% !important;
+  }
+}
